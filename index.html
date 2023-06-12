@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1>QUIZ APP</h1>
+
+<div>
+    <span class="timer" id="timer"></span>
+   <div class="opt">
+    <p id="question"></p>
+<div>
+<div>
+    <label>
+    <input onclick="enablebtn()"  value="1" type="radio" name="answer">
+    <span id="option1"></span>
+</label>
+</div>
+<div>
+    <label>
+    <input onclick="enablebtn()"  value="2" type="radio" name="answer">
+    <span id="option2"></span>
+</label>
+</div>
+<div>
+    <label>
+    <input onclick="enablebtn()" value="3" type="radio" name="answer">
+    <span id="option3"></span>
+</label>
+</div>
+</div>
+</div>
+    <button id="btn" disabled onclick="nextQuestion()">NEXT</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
